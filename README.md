@@ -1,8 +1,4 @@
 = blockchainLiskDapp[EM DESENVOLVIMENTO]
-:toc:
-:toc-title: Conteúdo
-:toclevels: 4
-:numbered:
 Dapp baseado no blockchain da Lisk para envio de não conformidade.
 
 == Instalação
