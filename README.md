@@ -60,7 +60,7 @@ O comando anterior irá gerar as seguintes saídas, siga conforme exemplo abaixo
 * ? Enter secret of your testnet account [sua_senha]
 * ? Overwrite the existing genesis block? [Y]
 * ? Enter DApp name [naoconformidadeDapp]
-* ? Enter DApp description [No Conformidade Dapp para envio de mensagem de No Conformidade de Segurana do Trabalho.]
+* ? Enter DApp description [Não Conformidade Dapp para envio de mensagem de Não Conformidade de Segurança do Trabalho.]
 * ? Github repository git@github.com:SEU_USUARIO_GIT/blockchainLiskDapp.git
 * ? Enter public keys of dapp forgers - hex array, use ',' for separator 0c5be0e55b336b4fea82dd1ae380be2d5d0faa8d046bc088a9c1f8c85e9d54cb [Aperte ENTER]
 * ? Add dapp to autolaunch? [Y]
