@@ -71,7 +71,7 @@ Por fim, anote o ID da Dapp gerada. Para o exemplo acima ID_DAPP:161703347355951
 #### Clonar Dapp do Git para utilizá-la
 ```sh
 cd dapps
-git clone https://github.com/SEU_USUARIO_GIT/blockchainLiskDapp
+git clone https://github.com/rodolfocruzbsb/blockchainLiskDapp
 cp ID_DAPP/genesis.json blockchainLiskDapp/
 rm -R ID_DAPP
 mv blockchainLiskDapp ID_DAPP
