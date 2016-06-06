@@ -66,7 +66,24 @@ O comando anterior irá gerar as seguintes saídas, siga conforme exemplo abaixo
 * ? Add dapp to autolaunch? [Y]
 * Done (DApp id is 16170334735595171296)
 
-Por fim, anote o ID da Dapp gerada. 
+Por fim, anote o ID da Dapp gerada. Para o exemplo acima ID_DAPP:16170334735595171296
+
+#### Clonar Dapp do Git para utilizá-la
+```sh
+cd dapps
+git clone https://github.com/SEU_USUARIO_GIT/blockchainLiskDapp
+cp ID_DAPP/genesis.json blockchainLiskDapp/
+rm -R ID_DAPP
+mv blockchainLiskDapp ID_DAPP
+``` 
+## Vendo a Dapp rodando
+Após todos os passos anteriores terem sido executado sem nenhum erro, basta reiniciar o seu container.(Por vez, por algum bug do Lisk, é necessário reiniciar 2 vezes o container)
+* Entre no Lisk, pelo endereço liberado pelo docker, conforme já citado no inicio deste documento. Ex: http://192.168.99.100:7000/
+* Acesse o Lisk com uma nova conta, ou simplesmente informe a seguinte senha: "round craft number example shop jazz green gold snake bring wild mom"
+* Vá até Dapp Store, e veja que o nosso Aplicativo se encontra disponível no Blockchai do Lisk.
+* Você também pode acessar o Dapp diretamente em: http://192.168.99.100:7000/dapps/ID_DAPP
+
+
 
 ## Detalhes do funcionamento: blockchainLiskDapp
 
