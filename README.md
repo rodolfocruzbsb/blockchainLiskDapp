@@ -1,5 +1,5 @@
-# blockchainLiskDapp[EM DESENVOLVIMENTO]
-Dapp baseado no blockchain da Lisk para envio de não conformidade.
+# blockchainLiskDapp
+Dapp baseado no blockchain da Lisk para envio de não conformidade. [EM DESENVOLVIMENTO]
 
 ## Instalação
 Para que a aplicação funcione, segue abaixo um passo a passo para que a mesma seja executada no Docker.
@@ -11,54 +11,48 @@ Caso você não tenha o Docker instalado, siga as instruções contidas no site 
 
 Dentro do Terminal do Docker, execute os seguintes comandos
 
-[source,bash]
-----
+```sh
 docker pull lisk/testnet
 docker run --name container_blockchain_lisk -d -p 0.0.0.0:7000:7000 lisk/testnet
-----
+```
 
 Para testar se o Lisk foi corretamente baixado e iniciado, acesse o endereço liberado pelo Docker, facilmente visualizado no Kinematic. Geralmente: (192.168.99.100:7000)
 
 Após startar o container, vamos acessá-lo para seguir com nossas configurações:
 
-[source,bash]
-----
+```sh
 docker ps -a
 docker exec -it ID_DO_CONTAINER bash
-----
+```
 
 ### Configurando ambiente linux 
 Após acessar o bash do seu container, conforme comando anterior continue configurando o linux para
 
 #### Ajustar data do S.O. para locale de Belém[OPCIONAL]
 
-[source,bash]
-----
+```sh
 sudo rm /etc/localtime
 sudo ln -s /usr/share/zoneinfo/America/Belem /etc/localtime
-----
+```
 
 #### Configurar SSH no Linux para acessar o Git. 
 Siga instruções em (https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/)
 
 #### Baixar ferramenta do Lisk(Lisk-Cli) para gerar Dapp dentro do seu padrão.
  
-[source,bash]
-----
+```sh
 git clone git@github.com:LiskHQ/lisk-cli.git
 cd lisk-cli
 sudo npm install -g .
 cd ..
-----
+```
 
 #### Criar sua Dapp
 Certifique-se de estar no diretório ~/lisk
 
-[source,bash]
-----
+```sh
 lisk-cli dapps -a
-
----- 
+``` 
 
 ## Detalhes do funcionamento: blockchainLiskDapp
 
