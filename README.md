@@ -96,3 +96,9 @@ Dapp simples para enviar Não Conformidades, baseado no blockchain do Lisk.
 - A senha não é obrigatória, caso não informe será considerada a senha padrão: "default-senha-rodolfo".
 
 - A transação não tem taxação, é grátis 0 LISK (devido a ter fins apenas de teste).
+
+## Referências
+
+- [Lisk](https://lisk.io/documentation?i=lisk-docs/README)
+- [Docker](https://docs.docker.com/)
+- [Git](https://help.github.com/)
