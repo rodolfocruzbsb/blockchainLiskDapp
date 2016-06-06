@@ -76,6 +76,17 @@ cp ID_DAPP/genesis.json blockchainLiskDapp/
 rm -R ID_DAPP
 mv blockchainLiskDapp ID_DAPP
 ``` 
+
+## Últimos ajustes
+* Adicione altere o arquivo ~/lisk/dapps/ID_APP/config.json e altere a seção "peers", "ip" e cooque o seu IP.
+```sh
+nano ~/lisk/dapps/ID_APP/config.json
+```
+* Altere o arquivo ~/lisk/genesisBlock.json, vá para o final do arquivo e procure o atributo *recipientId* e altere de null para "9656600697829963790L". Não esqueça de deixar o valor entre aspas duplas.
+```sh
+nano ~/lisk/genesisBlock.json
+``` 
+
 ## Vendo a Dapp rodando
 Após todos os passos anteriores terem sido executado sem nenhum erro, basta reiniciar o seu container.(Por vez, por algum bug do Lisk, é necessário reiniciar 2 vezes o container)
 * Entre no Lisk, pelo endereço liberado pelo docker, conforme já citado no inicio deste documento. Ex: http://192.168.99.100:7000/
