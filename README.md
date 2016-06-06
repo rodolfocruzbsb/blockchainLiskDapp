@@ -48,15 +48,29 @@ cd ..
 ```
 
 #### Criar sua Dapp
-Certifique-se de estar no diretório ~/lisk
-
+Certifique-se de estar no diretório ~/lisk e execute o seguinte comando:
+Antes de seguir, faça um fork deste projeto para utilizar-mos ele mais a frente no lisk-cli, ficando algo como: https://github.com/SEU_USUARIO_GIT/blockchainLiskDapp
 ```sh
 lisk-cli dapps -a
 ``` 
 
+O comando anterior irá gerar as seguintes saídas, siga conforme exemplo abaixo se atentando para substituir seu usuário no repositório Git
+
+* ? Existing blockchain.db file will be replaced, are you sure? [Y]
+* ? Enter secret of your testnet account [sua_senha]
+* ? Overwrite the existing genesis block? [Y]
+* ? Enter DApp name [naoconformidadeDapp]
+* ? Enter DApp description [No Conformidade Dapp para envio de mensagem de No Conformidade de Segurana do Trabalho.]
+* ? Github repository git@github.com:SEU_USUARIO_GIT/blockchainLiskDapp.git
+* ? Enter public keys of dapp forgers - hex array, use ',' for separator 0c5be0e55b336b4fea82dd1ae380be2d5d0faa8d046bc088a9c1f8c85e9d54cb [Aperte ENTER]
+* ? Add dapp to autolaunch? [Y]
+* Done (DApp id is 16170334735595171296)
+
+Por fim, anote o ID da Dapp gerada. 
+
 ## Detalhes do funcionamento: blockchainLiskDapp
 
-Dapp simples para enviar Não conformidade, baseado no blockchain do Lisk.
+Dapp simples para enviar Não Conformidades, baseado no blockchain do Lisk.
 
 - Quantidade máxima de caracteres 1000.
 
