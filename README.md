@@ -108,6 +108,15 @@ Dapp simples para enviar Não Conformidades, baseado no blockchain do Lisk.
 
 - A transação não tem taxação, é grátis 0 LISK (devido a ter fins apenas de teste).
 
+## Prints
+![Lisk Local](https://github.com/rodolfocruzbsb/blockchainLiskDapp/blob/master/1_lisk_local.png)
+
+![Dapp criado](https://github.com/rodolfocruzbsb/blockchainLiskDapp/blob/master/2_dapp_lisk.png)
+
+![Dapp detalhamento](https://github.com/rodolfocruzbsb/blockchainLiskDapp/blob/master/3_dapp_lisk.png)
+
+![Dapp rodando](https://github.com/rodolfocruzbsb/blockchainLiskDapp/blob/master/4_dapp_rodando.png)
+
 ## Referências
 
 - [Lisk](https://lisk.io/documentation?i=lisk-docs/README)
