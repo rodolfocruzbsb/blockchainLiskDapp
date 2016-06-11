@@ -1,5 +1,5 @@
 # blockchainLiskDapp
-Dapp baseado no blockchain da Lisk para envio de não conformidade. [EM DESENVOLVIMENTO]
+Dapp baseado no blockchain da Lisk para envio de não conformidade. [EM DESENVOLVIMENTO - Com problemas devido o Lisk]
 
 ## Instalação
 Para que a aplicação funcione, segue abaixo um passo a passo para que a mesma seja executada no Docker.
